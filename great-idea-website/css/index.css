@@ -51,7 +51,9 @@ table {
 * {
     box-sizing: border-box;
 }
-
+  h1, h2, h3, h4, h5 {
+	font-size: 20px;
+  }
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -64,3 +66,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+nav a {
+	padding: 50px 60px;
+	color: grey;
+	margin-top: 60px;
+}
+
+.main h1{
+	padding-top: 100px;
+	vertical-align: top;
+	text-align: center;
+	font-size: 80px;
+	width: 50%;
+	display: inline-block;
+	margin-left: 30px;
+	
+}
+button {
+	padding: 10px 40px;
+}
+
+.main img {
+	padding-top: 100px;
+	vertical-align: top;
+	width: 30%;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+  }
+
+ .feature {
+	 width: 45%;
+	 display: inline-block;
+	 padding: 10px 0;
+	 margin-left: 20px;
+	 margin-bottom: 20px;
+  }
+
+ .about {
+	width: 45%;
+	display: inline-block;
+	padding: 10px 0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.service {
+	width: 30%;
+	display: inline-block;
+	padding: 10px 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
+ }
+
+.vision {
+   width: 30%;
+   display: inline-block;
+   padding: 10px 0;
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+
+.product {
+	width: 30%;
+	display: inline-block;
+	padding: 30px 0;
+	margin-right: 30px;
+	margin-bottom: 30px;
+ }
+.banner img {
+	width: 100%;
+}
+
+footer{
+	display: block;
+} 
+
+.contact {
+	padding: 10px;
+	line-height: 20px;
+	margin-left:30px;
+
+}
+
+.copyright {
+	text-align: center;
+	width:100%;
+}
