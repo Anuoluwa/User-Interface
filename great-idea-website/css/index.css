@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -56,7 +58,7 @@ table {
   }
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Lato', 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,26 +69,55 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
-
+header {
+	background-color: whitesmoke;
+	padding: 0px 0 30px 0;
+	height: 80px;
+}
+nav {
+	margin: 0 20px 40px 20px;
+	padding: 15px 0 15px 0;
+}
 nav a {
-	padding: 50px 60px;
+	padding: 10px 40px 30px 40px;;
 	color: grey;
-	margin-top: 60px;
+	margin: 0 20px 0 20px;
 }
 
+nav img {
+	margin: 0 0 0 50px;
+	
+}
+
+main {
+	margin: 30px 20px;
+}
+hr {
+	width: 92%;
+	margin: 0 auto;;
+
+}
+
+.main {
+	margin: 0 0 80px 0;
+}
 .main h1{
-	padding-top: 100px;
+	padding: 100px 0 0 0;
 	vertical-align: top;
 	text-align: center;
 	font-size: 80px;
 	width: 50%;
 	display: inline-block;
-	margin-left: 30px;
+	margin: 40px 0 0 30px;
 	
 }
-button {
-	padding: 10px 40px;
+.button {
+	padding: 15px 80px;
+	background: whitesmoke;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+
 }
 
 .main img {
@@ -101,45 +132,59 @@ a {
 	text-decoration: none;
 	color: grey;
   }
+  .info {
+	  margin: 20px 60px 20px 60px;
+  }
 
+  .info h2 {
+	  font-size: 22px;
+  }
  .feature {
 	 width: 45%;
 	 display: inline-block;
 	 padding: 10px 0;
-	 margin-left: 20px;
-	 margin-bottom: 20px;
+	 line-height: 22px;
+	 font-size: 20px;
   }
 
  .about {
 	width: 45%;
 	display: inline-block;
-	padding: 10px 0;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	padding: 10px 0 10px 0;
+	line-height: 22px;
+	font-size: 20px;
+	margin: 0 0 0 125px;
 }
 
+.banner {
+	margin: 0 60px;
+}
+
+.advert {
+	margin: 20px 60px 20px 60px;
+	line-height: 22px;
+	font-size: 20px;
+}
+
+.advert h2 {
+	font-size: 22px;
+}
 .service {
-	width: 30%;
+	width: 33%;
 	display: inline-block;
 	padding: 10px 0;
-	margin-left: 20px;
-	margin-bottom: 20px;
  }
 
 .vision {
-   width: 30%;
+   width: 33%;
    display: inline-block;
    padding: 10px 0;
-   margin-right: 20px;
-   margin-bottom: 20px;
 }
 
 .product {
-	width: 30%;
+	width: 33%;
 	display: inline-block;
 	padding: 30px 0;
-	margin-right: 30px;
-	margin-bottom: 30px;
  }
 .banner img {
 	width: 100%;
@@ -147,7 +192,12 @@ a {
 
 footer{
 	display: block;
+	margin: 20px 0 150px 22px;
 } 
+
+footer div {
+	margin: 20px 0 20px 0;
+}
 
 .contact {
 	padding: 10px;
