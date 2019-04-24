@@ -113,10 +113,11 @@ hr {
 }
 .button {
 	padding: 15px 80px;
-	background: whitesmoke;
+	background-color: rgb(255, 255, 255);
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
+	border: 1px solid black;
 
 }
 
